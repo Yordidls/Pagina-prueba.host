@@ -1,0 +1,67 @@
+ 
+  
+ form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.Seccion{
+    
+    background-color:   #080344;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1px;
+    margin-top: 20px;
+}
+.Seccion h1{
+   text-align: center;
+   color: white;
+   
+}
+body{
+  
+    background-color: lightgray;
+
+}
+ 
+input[type="text"] {
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+     
+}
+
+input[type="button"] {
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+input[type="button"]:hover {
+    background-color: #ec8c05;
+}
+
+#operador{
+        margin-top: 10px;
+        width: 300px;
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+} 
+ 
